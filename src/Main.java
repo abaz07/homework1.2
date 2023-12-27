@@ -44,25 +44,25 @@ public class Main {
         System.out.println(frog);
         //Задача 6
         System.out.println("Задача 6");
-        var massaPervogoBoica = 78.2;
-        var massaVtorogoBoica = 82.7;
-        var sum = massaPervogoBoica + massaVtorogoBoica;
-        var raznica = massaVtorogoBoica - massaPervogoBoica;
+        var weight1 = 78.2;
+        var weight2 = 82.7;
+        var sum = weight1 + weight2;
+        var result = weight1 - weight2;
         System.out.println(sum);
-        System.out.println(raznica);
+        System.out.println(result);
         //Задача 7
         System.out.println("Задача 7");
-        System.out.println(raznica);
-        var ostatokOtDeleniya = massaVtorogoBoica % massaPervogoBoica;
-        System.out.println(ostatokOtDeleniya);
+        System.out.println(result);
+        var result2 = weight2 % weight1;
+        System.out.println(result2);
         System.out.println("Задача 8.1");
-        var chasiRaboti = 640;
-        var vremiyaNaOdnogo = 8;
-        var vsegoRabotnikov = chasiRaboti / vremiyaNaOdnogo;
-        System.out.println(vsegoRabotnikov);
+        var businessHours = 640;
+        var time = 8;
+        var totalEmployees = businessHours / time;
+        System.out.println(totalEmployees);
         System.out.println("Задача 8.2");
-        vsegoRabotnikov = vsegoRabotnikov + 94;
-        chasiRaboti = vsegoRabotnikov * vremiyaNaOdnogo;
-        System.out.println("Если в компании работает " + vsegoRabotnikov + " человек, то всего " + chasiRaboti + " часов работы может быть поделено между сотрудниками");
+        totalEmployees = totalEmployees + 94;
+        businessHours = totalEmployees * time;
+        System.out.println("Если в компании работает " + totalEmployees + " человек, то всего " + businessHours + " часов работы может быть поделено между сотрудниками");
     }
 }
